@@ -1,1 +1,8 @@
+{
+  "name": "cover_letter_generator",
+  "description": "Generate a personalized cover letter.",
+  "input_type": "json",
+  "output_type": "text",
+  "prompt": "Based on the job description and this resume:\n{{input}}\n\nWrite a 1-page, compelling cover letter. Make it role-specific, enthusiastic, and professional."
+}
 

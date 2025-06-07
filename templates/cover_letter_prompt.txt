@@ -1,0 +1,5 @@
+Use the resume and job description below to generate a tailored cover letter:
+
+{{resume}}
+
+{{job_description}}

@@ -1,1 +1,8 @@
+{
+  "name": "job_scraper",
+  "description": "Find relevant jobs based on user skills and preferences.",
+  "input_type": "json",
+  "output_type": "json",
+  "prompt": "Given this user profile and search preferences:\n{{input}}\n\nFind 10 relevant jobs using LinkedIn or remote job boards. Return job title, company, location, description, and application link."
+}
 

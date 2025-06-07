@@ -1,1 +1,8 @@
+{
+  "name": "resume_updater",
+  "description": "Update resume keywords for better ATS compatibility.",
+  "input_type": "json",
+  "output_type": "text",
+  "prompt": "Here is a resume and a job description:\n{{input}}\n\nUpdate the resume to include relevant keywords and match the tone of the job description, improving ATS score."
+}
 

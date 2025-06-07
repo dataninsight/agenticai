@@ -1,1 +1,8 @@
+{
+  "name": "interview_prep_planner",
+  "description": "Generate prep plan and possible questions.",
+  "input_type": "json",
+  "output_type": "json",
+  "prompt": "Given this job description:\n{{input}}\n\nGenerate an interview prep roadmap including topics to revise, expected technical and behavioral questions, and helpful resources."
+}
 

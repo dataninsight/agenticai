@@ -1,1 +1,8 @@
+{
+  "name": "job_ranker",
+  "description": "Rank jobs based on match to resume skills and estimated pay.",
+  "input_type": "json",
+  "output_type": "json",
+  "prompt": "Given this resume profile and job list:\n{{input}}\n\nRank the jobs by skill match and estimated pay. Output a list sorted from most to least relevant."
+}
 

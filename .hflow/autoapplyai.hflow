@@ -1,1 +1,30 @@
+{
+  "workflow_name": "AutoApplyAI Job Hunter",
+  "steps": [
+    {
+      "agent": "resume_parser",
+      "input": "{{ resume_text }}"
+    },
+    {
+      "agent": "job_scraper",
+      "input": "{{ step_1.output }}"
+    },
+    {
+      "agent": "job_ranker",
+      "input": "{{ step_2.output }}"
+    },
+    {
+      "agent": "cover_letter_generator",
+      "input": "{{ step_1.output + step_2.output }}"
+    },
+    {
+      "agent": "application_tracker",
+      "input": "{{ step_2.output }}"
+    },
+    {
+      "agent": "interview_prep_planner",
+      "input": "{{ step_2.output }}"
+    }
+  ]
+}
 

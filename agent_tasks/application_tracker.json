@@ -1,1 +1,8 @@
+{
+  "name": "application_tracker",
+  "description": "Log job application details to Notion or Google Sheets.",
+  "input_type": "json",
+  "output_type": "text",
+  "prompt": "Here is the application data:\n{{input}}\n\nLog this to a spreadsheet or Notion DB for tracking. Return a success message or error."
+}
 

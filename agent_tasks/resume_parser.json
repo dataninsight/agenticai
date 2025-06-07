@@ -1,1 +1,8 @@
+{
+  "name": "resume_parser",
+  "description": "Extract skills, education, and experience from resume text.",
+  "input_type": "text",
+  "output_type": "json",
+  "prompt": "You're a resume parsing agent. Given the following resume text, extract:\n- Name\n- Email\n- Skills\n- Work Experience\n- Education\n\nResume:\n{{input}}"
+}
 

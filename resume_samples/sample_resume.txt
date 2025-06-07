@@ -1,0 +1,17 @@
+John Doe  
+Email: johndoe@email.com
+
+Summary:
+Experienced Data Scientist with 5+ years in predictive analytics, machine learning, and data visualization.
+
+Skills:
+- Python, SQL, TensorFlow, scikit-learn
+- Tableau, PowerBI
+- Data Engineering
+
+Work Experience:
+- Data Scientist @ BigData Inc.
+- ML Engineer @ AI Works
+
+Education:
+- M.S. in Data Science, University of XYZ
